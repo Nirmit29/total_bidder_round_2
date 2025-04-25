@@ -1,0 +1,30 @@
+Describe how you would build a logistic regression model to predict the probability of a bid winning (win) 
+based on the other columns. 
+What features would you select and why?
+
+Ans - To bulid alogistic regression model -
+
+Basics step i can follow is 
+
+1) Data preprocessing
+
+Handle missing values.
+Encode categorical features like bidder etc
+scale numerical features
+
+2) Feature Selection 
+
+Select features like bid amount reponse count etc
+create a basic binary target variable
+
+3) Model training
+
+split data
+use logistic regression model
+
+4) Evaluating
+
+check accuracy also check test sets
+use classificatiion model
+
+This approach can train a model to predict the probabilty of bid winning.
